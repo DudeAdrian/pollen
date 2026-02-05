@@ -288,6 +288,65 @@ Token Flow:
 
 ---
 
+## ECOSYSTEM INTEGRATION
+
+Pollen serves as the **Personal AI Agent Layer** connecting all repositories in the Seven Pillar Architecture:
+
+| Repository | Connection Point | Integration Function |
+|------------|------------------|---------------------|
+| **Terracare-Ledger** | Identity, tokens, governance | Decentralized identity verification, MINE/WELL token transactions, voting rights, revenue distribution |
+| **Sofie-LLaMA** | Voice, intelligence, quantum | Voice interface to Sofie, quantum-enhanced predictions, natural language guidance, The Hum channel |
+| **SandIronRatio** | Hive consensus, hexagonal matrix | Hexagonal cell registration, swarm voting, pheromone trails, neighbor linking, collective intelligence |
+| **Heartware** | Biometrics, haptics, wearables | Real-time biometric ingestion, haptic feedback loops, wearable sensor integration, vital sign streaming |
+| **Harmonic-Balance** | Frequency therapy, environmental | Schumann resonance therapy, environmental frequency matching, soundscape generation, vibrational wellness |
+| **Tholos-Medica** | Medical safety, diagnostics | Medical-grade safety protocols, diagnostic validation, health risk assessment, emergency response triggers |
+| **Sofie-Map** | Spatial intelligence, optimal locations | Location-aware wellness recommendations, optimal environment identification, geographic pattern analysis |
+| **Terratone** | Sustainability, resources | Resource tracking, sustainability scoring, environmental impact measurement, circular economy participation |
+| **Sofie-Systems** | Core AI, patterns | Pattern recognition engines, mental model frameworks, AI safety validation, behavioral analysis |
+| **Sofie-Backend** | Evidence library, somatic ledger | Evidence-based protocol matching, somatic data ledger, research validation, outcome tracking |
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                         POLLEN ECOSYSTEM INTEGRATION                            │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                 │
+│   ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐                │
+│   │  Terracare      │  │  Sofie-LLaMA    │  │  SandIronRatio  │                │
+│   │  - Identity     │  │  - Voice        │  │  - Hive         │                │
+│   │  - Tokens       │  │  - Quantum AI   │  │  - Consensus    │                │
+│   │  - Governance   │  │  - The Hum      │  │  - Hex Matrix   │                │
+│   └────────┬────────┘  └────────┬────────┘  └────────┬────────┘                │
+│            │                    │                    │                          │
+│            └────────────────────┼────────────────────┘                          │
+│                                 ▼                                               │
+│   ┌─────────────────────────────────────────────────────────┐                  │
+│   │                      🌸 POLLEN 🌸                        │                  │
+│   │              Personal AI Agent Layer                    │                  │
+│   │   ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐   │                  │
+│   │   │Biometric│  │Frequency│  │   Hive  │  │  Token  │   │                  │
+│   │   │ Analysis│  │ Therapy │  │  Client │  │  Wallet │   │                  │
+│   │   └─────────┘  └─────────┘  └─────────┘  └─────────┘   │                  │
+│   └────────────────────────┬────────────────────────────────┘                  │
+│                            │                                                    │
+│            ┌───────────────┼───────────────┐                                   │
+│            ▼               ▼               ▼                                   │
+│   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                            │
+│   │  Heartware  │  │   Tholos    │  │    Map      │                            │
+│   │  - Sensors  │  │  - Medical  │  │  - Spatial  │                            │
+│   │  - Haptics  │  │  - Safety   │  │  - Location │                            │
+│   └─────────────┘  └─────────────┘  └─────────────┘                            │
+│                                                                                 │
+│   ┌─────────────┐  ┌─────────────┐  ┌─────────────┐                            │
+│   │  Terratone  │  │   Sofie     │  │   Sofie     │                            │
+│   │  - Sustain  │  │  - Systems  │  │  - Backend  │                            │
+│   │  - Resources│  │  - Patterns │  │  - Evidence │                            │
+│   └─────────────┘  └─────────────┘  └─────────────┘                            │
+│                                                                                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## Related Repositories
 
 | Repo | Layer | Role | Connection |
