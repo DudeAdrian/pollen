@@ -1,7 +1,17 @@
-"""Pollen engines package"""
+"""
+Pollen Engines Module
+"""
+
+from .creator_engine import CreatorEngine, ContentType, Creation
 from .wellness_engine import WellnessEngine
-from .creator_engine import CreatorEngine
 from .social_manager import SocialManager
 from .shadow_accumulator import ShadowAccumulator
+from .surgical_creator_engine import SurgicalCreatorEngine, WellnessConstrainedCreation
 
-__all__ = ["WellnessEngine", "CreatorEngine", "SocialManager", "ShadowAccumulator"]
+__all__ = [
+    'CreatorEngine', 'ContentType', 'Creation',
+    'WellnessEngine', 
+    'SocialManager',
+    'ShadowAccumulator',
+    'SurgicalCreatorEngine', 'WellnessConstrainedCreation'
+]

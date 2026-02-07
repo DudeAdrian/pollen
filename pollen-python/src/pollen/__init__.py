@@ -1,23 +1,70 @@
 """
-Pollen AI Agent - Sovereign AI Agent within Terracare Ecosystem
-Version: v1.0.0-production-ready
+Pollen Python Agent - Healing-Centric Development
 
-Pollen operates as the user's sovereign AI agent, spawned via Hive Consciousness,
-guided by Sofie AI intelligence. All activities are rewarded via Hive consensus.
+A sovereign AI agent for wellness-aware code generation and creative content,
+integrated with the Terracare ecosystem.
 
-Core Capabilities:
-- Wellness Agent: Biometric harvesting, wellness protocols
-- Creative Agent: Content generation (web, apps, media, docs)
-- Social Agent: Autonomous social media management
-- Technical Agent: Code generation, IoT management
-- Administrative Agent: Shadow wallet, graduation triggers
+Key Components:
+- HealingDevelopmentWorkflow: Full proof-of-wellness code generation
+- SurgicalCreatorEngine: AST-aware code generation with wellness constraints
+- WellnessCodeValidator: Validates code against stress thresholds
+- TerracareBridge: Blockchain integration for proof submission
 """
 
-__version__ = "v1.0.0-production-ready"
-__author__ = "Adrian Sortino (The Dude)"
-__license__ = "MIT"
+__version__ = "1.1.0-healing"
 
-from .agent_core import PollenAgent
-from .spawner import HiveSpawner
+from .agent_core import PollenAgent, AgentDecision
+from .workflows.healing_development import (
+    HealingDevelopmentWorkflow,
+    HealingDevelopmentResult,
+    WorkflowStage
+)
+from .engines.surgical_creator_engine import (
+    SurgicalCreatorEngine,
+    WellnessConstrainedCreation,
+    TerracareSession
+)
+from .validation.wellness_code_validator import (
+    WellnessCodeValidator,
+    WellnessViolation,
+    CognitiveLoadReport,
+    ViolationType
+)
+from .integration.terracare_bridge import (
+    TerracareBridge,
+    submit_code_proof,
+    validate_build_token,
+    log_biometric_impact
+)
+from .config import get_settings
 
-__all__ = ["PollenAgent", "HiveSpawner", "__version__"]
+__all__ = [
+    # Core
+    'PollenAgent',
+    'AgentDecision',
+    
+    # Workflows
+    'HealingDevelopmentWorkflow',
+    'HealingDevelopmentResult',
+    'WorkflowStage',
+    
+    # Engines
+    'SurgicalCreatorEngine',
+    'WellnessConstrainedCreation',
+    'TerracareSession',
+    
+    # Validation
+    'WellnessCodeValidator',
+    'WellnessViolation',
+    'CognitiveLoadReport',
+    'ViolationType',
+    
+    # Integration
+    'TerracareBridge',
+    'submit_code_proof',
+    'validate_build_token',
+    'log_biometric_impact',
+    
+    # Config
+    'get_settings',
+]

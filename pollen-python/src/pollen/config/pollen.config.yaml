@@ -1,0 +1,72 @@
+# Pollen Configuration File
+# Healing-Centric Development Settings
+
+terracare:
+  ledger_url: http://localhost:3000
+  validation_enabled: true
+  required_tokens_per_generation: 1.0 WELL
+  
+wellness_constraints:
+  max_cognitive_load: 7 # 1-10 scale
+  required_sleep_score: 6 # minimum to generate complex code
+  hrv_threshold: 45 # ms, minimum for auth
+  banned_patterns:
+    - infinite_scroll
+    - deceptive_dark_patterns
+    - anxiety_notifications
+    - attention_extraction
+    
+healing_defaults:
+  ui_animation_speed: calming # vs aggressive
+  notification_batching: mindful_moments
+  pagination: intentional_breaks
+  progress_celebration: includes_rest
+  
+# Biometric thresholds for coding authorization
+coding_authorization:
+  hrv:
+    critical: 30  # Block coding
+    caution: 45   # Minimal complexity only
+    optimal: 60   # Full complexity
+  
+  sleep_score:
+    critical: 4   # Block coding
+    caution: 6    # Minimal complexity
+    optimal: 8    # Full complexity
+
+# IDE integration settings
+ide:
+  precommit:
+    block_on_critical: true
+    min_wellness_score: 6.0
+    warn_on_warnings: true
+  
+  realtime_linter:
+    enabled: true
+    severity_threshold: warning
+
+# Token economics
+tokens:
+  base_mine_reward: 20.0
+  base_well_reward: 0.2
+  
+  bonuses:
+    zero_violations: 1.5x
+    high_hrv: 1.2x
+    good_sleep: 1.1x
+  
+  costs:
+    minimal: 0.5 WELL
+    balanced: 1.0 WELL
+    full: 2.0 WELL
+
+# Session management
+session:
+  breath_prompt_interval: 10 # minutes
+  break_reminder_interval: 30 # minutes
+  max_session_duration: 90 # minutes (optimal state)
+  
+  quiet_hours:
+    start: 22 # 10 PM
+    end: 8    # 8 AM
+    enabled: true
